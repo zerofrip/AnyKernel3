@@ -44,10 +44,10 @@ write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_
 ## end boot install
 
 ## vendor_kernel_boot shell variables
-#BLOCK=vendor_kernel_boot;
-#IS_SLOT_DEVICE=1;
-#RAMDISK_COMPRESSION=auto;
-#PATCH_VBMETA_FLAG=auto;
+BLOCK=vendor_boot;
+IS_SLOT_DEVICE=1;
+RAMDISK_COMPRESSION=auto;
+PATCH_VBMETA_FLAG=auto;
 
 # reset for vendor_kernel_boot patching
 reset_ak;
