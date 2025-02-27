@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Unofficial LineageOS Spacewar Kernel
+kernel.string=Unofficial Spacewar LineageOS Kernel
 do.devicecheck=0
 do.modules=0
 do.systemless=1
